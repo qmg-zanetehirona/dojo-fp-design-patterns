@@ -51,22 +51,13 @@ Factory Method is a creational design pattern that provides an interface for cre
 
 
 
-## mapping
+## Mapping
 Pattern                 | Lambda
 ----------------------- | --------------
 Chain of Responsibility | Stream of functions
 Decorator               | Functions composition
-Interpreter             | Map of functions
-Strategy                | SAM, Function composition
-Template                | SAM, Consumer
-Visitor                 | Map of functions
-
-* note that many more patterns from GOF could be rewritten in a more functional way by simply using
-  SAM conversion
-    * examples: 
-      - `Observer` Consumer
-      - `Template` Consumer
-      - `Command` Function
+Strategy                | Enum
+Factory                 | Enum
 
 - * references
     * [OOP v̶s̶ and FP by Mario Fusco](https://www.youtube.com/watch?v=p6cZO5V2ehw)
